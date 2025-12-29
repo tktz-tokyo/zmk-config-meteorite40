@@ -4,28 +4,30 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: tktz-tokyo
       url-base: https://github.com/tktz-tokyo
+    - name: eswai # ここを追加
+      url-base: https://github.com/eswai
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: tktz-tokyo
+      remote: iwk7273
       revision: main
     - name: zmk-feature-sensor_rotation
-      remote: tktz-tokyo
+      remote: iwk7273
       revision: main
     - name: zmk-feature-xy_clipper
-      remote: tktz-tokyo
+      remote: iwk7273
       revision: main
     - name: zmk-feature-scaling
-      remote: tktz-tokyo
+      remote: iwk7273
       revision: main
     - name: zmk-smart-toggle
-      remote: tktz-tokyo
+      remote: iwk7273
       revision: main
     - name: zmk-feature-meteorite-config
-      remote: tktz-tokyo
+      remote: iwk7273
       revision: main
   self:
     path: config
