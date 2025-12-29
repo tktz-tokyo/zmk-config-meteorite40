@@ -5,6 +5,7 @@
 
 #include <behaviors/custom_config.dtsi>
 #include <dt-bindings/zmk/custom_config.h>
+#include <behaviors/naginata.dtsi>
 
 &mt { 
     flavor = "tap-preferred"; // change hold to tap
